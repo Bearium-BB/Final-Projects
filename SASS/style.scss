@@ -1,0 +1,54 @@
+@import "_variables.scss";
+@import "GridCSS.scss/_NavGrids";
+@import "GridCSS.scss/_InformationGrid.scss";
+
+p
+{
+    font-size: 30px;
+    text-align: center;
+    background-color:$colour-palette-forest-green-traditional;
+    color: $colour-palette-lavender-web;
+    margin: 0;
+}
+
+body
+{
+    background-image: url("../Images/BackgroundImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+#information
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#BackgroundColour
+{
+    background: $colour-palette-gold-rgb;
+    width: 75vw;
+    height: 100vh;
+}
+
+#flex_for_inner_background
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+#inner_background
+{
+    background: $colour-palette-slimy-green-rgb;
+    width: 74vw;
+    height: 99vh;
+}
+

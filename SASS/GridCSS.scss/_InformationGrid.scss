@@ -1,0 +1,31 @@
+#content{
+    display: grid;
+    width: 100%;
+    height: 100%;
+
+
+    background-color: $colour-palette-slimy-green-rgb;
+    grid-template-columns: repeat(6,);
+    grid-template-rows: repeat(12);
+    gap: 5px;
+}
+#About {
+    grid-area: 1 / 1 / span 1 / span 6;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    background-color:$colour-palette-forest-green-traditional;
+}
+#websiteAbout
+{
+    grid-area: 2 / 1 / span 3 / span 3;
+    text-align: center;
+    font-size: 24px;
+    #text{
+        background-color:$colour-palette-forest-green-traditional;
+    }
+}
+#img1
+{
+    grid-area: 2 / 4 / span 6 / span 3;
+}
