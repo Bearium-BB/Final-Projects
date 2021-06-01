@@ -124,6 +124,16 @@ nav li {
   grid-area: 2 / 4 / span 6 / span 3;
 }
 
+#morecontent {
+  text-align: center;
+  font-size: 24px;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: 3 / 1 / span 3 / span 3;
+}
+
 p {
   font-size: 30px;
   text-align: center;
