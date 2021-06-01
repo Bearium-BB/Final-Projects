@@ -5,7 +5,7 @@
 
 
     background-color: $colour-palette-slimy-green-rgb;
-    grid-template-columns: repeat(6,);
+    grid-template-columns: repeat(6);
     grid-template-rows: repeat(12);
     gap: 5px;
 }
@@ -18,7 +18,7 @@
 }
 #websiteAbout
 {
-    grid-area: 2 / 1 / span 3 / span 3;
+    grid-area: 2 / 1 / span 1 / span 3;
     text-align: center;
     font-size: 24px;
     #text{

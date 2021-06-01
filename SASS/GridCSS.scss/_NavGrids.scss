@@ -33,6 +33,14 @@ nav{
             background-color:$colour-palette-forest-green-traditional;
             color: $colour-palette-lavender-web;
             margin: 0;
+
+            &:hover, &:focus {
+                background-color: adjust-color($color: $colour-palette-forest-green-traditional, $lightness: -5%);
+            }
+    
+            &:active {
+                color:$colour-palette-gold;
+            }
         }
     }
     #nav_h1 {
