@@ -5,8 +5,8 @@
 
 
     background-color: $colour-palette-slimy-green-rgb;
-    grid-template-columns: repeat(6);
-    grid-template-rows: repeat(12);
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(12,1fr);
     gap: 5px;
 }
 #About {
@@ -21,11 +21,10 @@
     grid-area: 2 / 1 / span 1 / span 3;
     text-align: center;
     font-size: 24px;
-    #text{
-        background-color:$colour-palette-forest-green-traditional;
-    }
 }
 #img1
 {
+    background-image: url("/../../Images/download.png");
+    background-size: 184px 274px;
     grid-area: 2 / 4 / span 6 / span 3;
 }
