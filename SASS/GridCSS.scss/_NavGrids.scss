@@ -33,6 +33,7 @@ nav{
             background-color:$colour-palette-forest-green-traditional;
             color: $colour-palette-lavender-web;
             margin: 0;
+            text-decoration: none;
 
             &:hover, &:focus {
                 background-color: adjust-color($color: $colour-palette-forest-green-traditional, $lightness: -5%);

@@ -51,4 +51,17 @@ body
     width: 74vw;
     height: 99vh;
 }
+@media (min-width: 0px) and (max-width: 1279px){
+    p{
+        font-size: 20px;
+    }
+}
 
+
+#spells
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: $colour-palette-slimy-green-rgb;
+}
