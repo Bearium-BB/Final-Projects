@@ -1,6 +1,8 @@
 @import "_variables.scss";
 @import "GridCSS.scss/_NavGrids";
 @import "GridCSS.scss/_InformationGrid.scss";
+@import "_SpellList.scss";
+@import "_SubclassesList.scss";
 
 p
 {
@@ -64,4 +66,34 @@ body
     width: 100%;
     height: 100%;
     background-color: $colour-palette-slimy-green-rgb;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#CoolSpell
+{
+    overflow: scroll;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: $colour-palette-forest-green-traditional;
+}
+
+#subclasses
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: $colour-palette-slimy-green-rgb;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#SubclassesList
+{
+    overflow: scroll;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: $colour-palette-forest-green-traditional;
 }
