@@ -153,6 +153,7 @@ nav ul li {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 50%;
 }
 
 .SpellInformation p {
@@ -197,6 +198,10 @@ nav ul li {
 .SubclassesInformation p {
   border-width: 3px;
   border-color: white;
+}
+
+* {
+  font-family: sans-serif,Arial, Helvetica;
 }
 
 p {
