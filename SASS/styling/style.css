@@ -1,0 +1,47 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: teal;
+}
+
+nav a {
+  color: #2bff00;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
+}
+
+nav a:hover, nav a:focus {
+  background-color: #0000e6;
+}
+
+nav a:active {
+  background-color: #e6e6e6;
+}
+
+nav .active {
+  color: #2bff00;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+article h3 {
+  color: purple;
+  font-size: 28;
+}
+
+article p {
+  color: green;
+  font-size: 28;
+}
