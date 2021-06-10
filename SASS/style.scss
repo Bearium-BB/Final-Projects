@@ -4,6 +4,9 @@
 @import "_SpellList.scss";
 @import "_SubclassesList.scss";
 
+
+  
+
 p
 {
     font-size: 30px;
@@ -44,7 +47,7 @@ body
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center 
+    justify-content: center;
 }
 
 #inner_background
@@ -56,6 +59,9 @@ body
 @media (min-width: 0px) and (max-width: 1279px){
     p{
         font-size: 20px;
+    }
+    nav ul li{
+        font-size: 40px;
     }
 }
 
@@ -96,4 +102,12 @@ body
     width: 100%;
     height: 25%;
     background-color: $colour-palette-forest-green-traditional;
+}
+#video{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: $colour-palette-slimy-green-rgb;
+    flex-direction: column;
+    align-items: center;
 }
