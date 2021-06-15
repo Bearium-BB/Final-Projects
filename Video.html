@@ -5,8 +5,10 @@
       <meta charset="utf-8"/>
       <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
       <link rel="stylesheet" href="SASS/style.css">
+      <link rel="js" href="/JS/GenerateStats.js">
       <title>Druid Cove</title>
     </head>
+    <script src="/JS/GenerateStats.js"></script>
     <body>
       <nav>
         <h1>Druid Cove</h1>
@@ -37,9 +39,13 @@
                 <div id="flex_for_inner_background">
                     <div id="inner_background"> 
                       <div id="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/i9ZnlZ7VudM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dE_rp4f2buU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
+                        <div><iframe src="https://www.youtube.com/embed/i9ZnlZ7VudM" title="W3Schools Free Online Web Tutorials"></iframe></div>
+                          <div><iframe src="https://www.youtube.com/embed/dE_rp4f2buU" title="W3Schools Free Online Web Tutorials"></iframe></div>
+                          <button onclick="Stats()" type="button">Play me</button>
+                          <p id="rolls"></p>
+                          <p id="SigningStats"></p>
+                          <p id="Subclass"></p>
+                          </div>
                         </div>
                      </div>
                    </div>                   
