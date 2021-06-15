@@ -13,6 +13,7 @@ function Stats() {
     onclick=document.getElementById("SigningStats").innerHTML = "Str "+num1+"\n"+"Dex "+num2+"\n"+"Con "+num3+"\n"+"Int "+num4+"\n"+"Wis "+num5+"\n"+"Cha "+num6+"\n";
     subclassPicker()
     RacePicker()
+    onclick=document.getElementById("Warning").innerHTML ="Warning:These are just the base stats they have no proficiencies added"
 }  
 function subclassPicker() {
 
